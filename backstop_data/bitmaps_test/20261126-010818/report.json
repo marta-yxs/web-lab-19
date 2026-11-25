@@ -1,0 +1,29 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\web-lab-19_Lab19_Page_0_document_0_desktop.png",
+        "test": "..\\bitmaps_test\\20261126-010818\\web-lab-19_Lab19_Page_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "web-lab-19_Lab19_Page_0_document_0_desktop.png",
+        "label": "Lab19 Page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://127.0.0.1:5500/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "web-lab-19"
+}

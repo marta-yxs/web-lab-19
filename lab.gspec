@@ -1,0 +1,51 @@
+@objects
+    page    css     .page
+    left    css     .left
+    center  css     .center
+    right   css     .right
+    logo    css     .logo
+    title   css     .title
+    desc    css     .desc
+    btn     css     .btn
+    num     css     .num
+
+= Page Layout =
+    page:
+        width 1440px
+        height 1024px
+
+    left:
+        width 260px
+        height 1024px
+
+    center:
+        width 390px
+        right-of left 0px
+
+    right:
+        width 790px
+        right-of center 0px
+
+= CSS Styles =
+    logo:
+        css background-color is "rgba(230, 36, 41, 1)"
+        css font-size is "32px"
+
+    title:
+        css font-size is "56px"
+        css font-weight is "900"
+        css color is "rgba(83, 15, 18, 1)"
+
+    desc:
+        width 520px
+        css font-size is "15px"
+
+    btn:
+        width 196px
+        height 54px
+        css background-color is "rgba(106, 17, 17, 1)"
+        css border-radius is "6px"
+
+    num:
+        css font-size is "64px"
+        css color is "rgba(35, 35, 35, 1)"
